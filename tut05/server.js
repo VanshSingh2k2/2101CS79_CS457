@@ -151,16 +151,5 @@ app.post("/students", (req, res) => {
     res.json({ message: "Student added successfully." });
 });
 
-// ✅ FIXED: Update a student (PUT /students/:roll, only Editor)
-app.put("/students/:roll", isAuthenticated, hasRole("editor"), (req, res) => {
-    let students = loadDB();
-    const index = students.findIndex(s => s.roll === req.params.roll);
-    if (index === -1) return res.status(404).json({ error: "Student not found." });
-
-    students[index] = req.body;
-    saveDB(students);
-    res.json({ message: "Student updated." });
-});
-
 // Start server
 app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
