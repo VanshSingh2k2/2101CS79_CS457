@@ -1,0 +1,14 @@
+{
+  "vansh": {
+    "password": "$2b$10$fItwYRwfdxroWSkO38gE3uMwBQZKO7vg4zk0XZ2cw5Cupr5LtqGB6",
+    "role": "admin"
+  },
+  "hiren": {
+    "password": "$2b$10$LtTo7j4X07hAufGt2ysOXuwskDRCnY7deO32dBEj5te5P2r4qna6i",
+    "role": "editor"
+  },
+  "nitya": {
+    "password": "$2b$10$.pNOCxJt/FTe6OHNH1zJDun3ITBdbd/xcQJw091McM6mHPpdnEL8K",
+    "role": "editor"
+  }
+}

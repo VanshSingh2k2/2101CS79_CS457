@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Vansh",
+    "age": "22",
+    "roll": "2101CS79",
+    "branch": "Computer Science",
+    "hometown": "New Delhi"
+  },
+  {
+    "roll": "2101CS32",
+    "name": "Harsh",
+    "age": "22",
+    "branch": "Computer Science",
+    "hometown": "Ajmer"
+  },
+  {
+    "roll": "2101EP31",
+    "name": "Vishesh",
+    "age": "21",
+    "branch": "Engineering Physics",
+    "hometown": "Uttar Pradesh"
+  },
+  {
+    "roll": "ijbn",
+    "name": "hello",
+    "age": "20",
+    "branch": "kjn",
+    "hometown": "jn"
+  },
+  {
+    "roll": "jhb",
+    "name": "daijb",
+    "age": "87",
+    "branch": "jkb",
+    "hometown": "ibn"
+  },
+  {
+    "roll": "jh",
+    "name": "asdjk",
+    "age": "878",
+    "branch": "jhb",
+    "hometown": "jb"
+  },
+  {
+    "roll": "jhb",
+    "name": "asjhbd",
+    "age": "7",
+    "branch": "i",
+    "hometown": "ibn"
+  },
+  {
+    "roll": "jib",
+    "name": "jhb",
+    "age": "788",
+    "branch": "ijn",
+    "hometown": "kjbn"
+  },
+  {
+    "roll": "jhkjb",
+    "name": "uhghb",
+    "age": "78",
+    "branch": "kjnb",
+    "hometown": "jn"
+  },
+  {
+    "roll": "jbhasdji",
+    "name": "FGauhbd",
+    "age": "23",
+    "branch": "jkbjkb",
+    "hometown": "ijnkjn"
+  },
+  {
+    "roll": "ihb",
+    "name": "sdiufh",
+    "age": "79",
+    "branch": "jhb",
+    "hometown": "jb"
+  },
+  {
+    "roll": "ijb",
+    "name": "sakjdb",
+    "age": "87",
+    "branch": "trx",
+    "hometown": "trx"
+  }
+]

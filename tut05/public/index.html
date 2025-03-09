@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Role-Based Auth</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="auth-container">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="login()">Login</button>
+        <p>Not registered? <button onclick="showRegister()">Register</button></p>
+    </div>
+    
+    <div id="register-container" style="display:none;">
+        <h2>Register</h2>
+        <input type="text" id="reg-username" placeholder="Username">
+        <input type="password" id="reg-password" placeholder="Password">
+        <button onclick="register()">Register</button>
+        <p>Already have an account? <button onclick="showLogin()">Login</button></p>
+    </div>
+    
+    <div id="dashboard" style="display:none;">
+        <h2>Dashboard</h2>
+        <p id="username-login"></p>
+        <p id="role-display"></p>
+        <button onclick="fetchStudents()">View Students</button>
+        <button onclick="logout()">Logout</button>
+        <form id="Role-Assigner">
+            <input type="text" id="assign-role-username" placeholder="Username" required>
+            <input type="text" id="assign-role-role" placeholder="Role" required>
+            <button type="submit">Edit role</button>
+        </form>
+
+        <h3>Add New Student</h3>
+        <form id="student-form">
+            <input type="text" id="student-name" placeholder="Name" required>
+            <input type="number" id="student-age" placeholder="Age" required>
+            <input type="text" id="student-roll" placeholder="Roll Number" required>
+            <input type="text" id="student-branch" placeholder="Branch" required>
+            <input type="text" id="student-hometown" placeholder="Hometown" required>
+            <button type="submit">Add Student</button>
+        </form>
+
+        <div id="students-list"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
