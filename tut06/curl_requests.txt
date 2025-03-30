@@ -1,0 +1,3 @@
+Invoke-WebRequest -Uri "http://localhost:5000/api/secure/admin" -Method GET -Headers @{ Authorization="Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQzMzM4NTI4LCJleHAiOjE3NDMzNDIxMjh9.dEcVqg3ui1ANWh6ds1sKB9hpmzcE1Lx748tak9gY4YM" }
+
+Invoke-WebRequest -Uri "http://localhost:5000/api/login" -Method POST -Body (@{username="user"; password="user@123"} | ConvertTo-Json -Compress) -ContentType "application/json"
